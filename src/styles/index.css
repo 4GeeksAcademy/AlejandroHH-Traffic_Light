@@ -10,3 +10,51 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+html, body{
+  height: 100%;
+
+}
+body{
+  background: linear-gradient( darkred, darkorange);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.traffic-light {
+    width: 7rem;
+    height: 19rem;
+    background-color: black;
+    border-radius: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem;
+  }
+  .light {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 0.5rem;
+  }
+  .red {
+    background-color: red;
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .green {
+    background-color: green;
+  }
+
+  .redGlow {
+    box-shadow: 0 0 30px 5px #FF0000;
+  }
+  .yellowGlow {
+    box-shadow: 0 0 30px 5px #FFFF00;
+  }
+  .greenGlow {
+    box-shadow: 0 0 30px 5px #008000;
+  }
+  
